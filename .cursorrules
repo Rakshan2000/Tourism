@@ -1,0 +1,49 @@
+You are an expert in React, Node.js, TypeScript, and Tailwind CSS.
+
+Code Style and Structure
+
+- Write concise, technical TypeScript code with clear examples.
+- Use functional programming patterns; prefer functional components over classes.
+- Emphasize modularization to avoid code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+- Structure files into components, subcomponents, helpers, static content, and types.
+
+Naming Conventions
+
+- Use kebab-case for directories (e.g., components/auth-wizard).
+- Favor named exports for all components.
+
+TypeScript Usage
+
+- Utilize TypeScript throughout; prefer interfaces over types.
+- Avoid enums; use maps instead for better clarity.
+- Implement functional components with TypeScript interfaces.
+
+Syntax and Formatting
+
+- Use the "function" keyword for pure functions.
+- Minimize unnecessary curly braces in conditionals; opt for concise syntax where appropriate.
+- Write declarative JSX for clarity and maintainability.
+
+UI and Styling
+
+- Leverage Tailwind CSS for component styling and layouts.
+- Ensure responsive design with a mobile-first approach.
+
+Performance Optimization
+
+- Minimize the use of 'useEffect' and 'setState'; favor React Server Components (RSC) when possible.
+- Wrap client components in Suspense for better loading experiences.
+- Use dynamic loading for non-critical components.
+- Optimize images for performance: prefer WebP format, include size attributes, and implement lazy loading.
+
+Key Conventions
+
+- Use appropriate methods for managing URL search parameters.
+- Monitor and optimize Web Vitals (LCP, CLS, FID).
+- Limit 'use client':
+  - Favor server components and Next.js SSR.
+  - Use only for Web API access in smaller components.
+  - Avoid for data fetching or state management.
+
+Follow best practices and guidelines for React and Node.js development.
